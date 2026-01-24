@@ -2,3 +2,38 @@
 // [[Enumerable]] - if `true`, the property will be returned in a `for...in` loop, otherwise not
 // [[Writable]] - if `true`, the value of the property can be changed, otherwise not
 // [[Value]] - the value of the property
+
+Math.PI = 4;
+console.log(Math.PI);
+
+let descriptor = Object.getOwnPropertyDescriptors(Math);
+// console.log(descriptor);
+
+const rectObj = {
+  name: "Rectangle 1",
+  width: 10,
+  height: 10,
+};
+
+descriptor = Object.getOwnPropertyDescriptor(rectObj, "name");
+console.log(descriptor);
+
+Object.defineProperty(rectObj, "name", {
+  writable: false,
+  configurable: false,
+  enumerable: false,
+});
+
+descriptor = Object.getOwnPropertyDescriptor(rectObj, "name");
+console.log(descriptor);
+
+rectObj.name = "circle";
+delete rectObj.name;
+// delete rectObj.width;
+console.log(rectObj);
+
+for (const [key, value] of Object.entries(rectObj)) {
+  console.log(key, value);
+}
+
+console.log(Object.getOwnPropertyDescriptors(rectObj));
