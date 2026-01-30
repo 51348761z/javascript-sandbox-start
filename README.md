@@ -22,13 +22,12 @@ Throughout this course, I've worked through comprehensive JavaScript topics incl
 
 Below are the major projects I've completed as part of this course:
 
-| Project                   | Description                                                                                                  | Repository                                                              | Status         |
-|---------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|----------------|
-| **Shopping List**         | Interactive shopping list app with local storage, item filtering, and CRUD operations                        | [View Project](https://github.com/51348761z/Shopping-List-Project-JS)   | ✅ Completed    |
-| **Flixx Movie App**       | Movie browsing application using TMDB API with search functionality and detailed movie/TV show pages         | [View Project](https://github.com/51348761z/Flixx-Movie-App-Project-JS) | ✅ Completed    |
-| **Tracalorie**            | Calorie tracking application with meal management, daily limits, and persistent storage using OOP principles | [View Project](https://github.com/51348761z/Tracalorie-App-Project-JS)  | ✅ Completed    |
-| **Random Ideas API**      | Full-stack REST API built with Node.js and Express for managing and sharing random ideas                     | 🔗 Coming Soon                                                          | 🚧 In Progress |
-| **Random Ideas Frontend** | Frontend application consuming the Random Ideas API with full CRUD functionality                             | 🔗 Coming Soon                                                          | 🚧 In Progress |
+| Project                   | Description                                                                                                  | Repository                                                              | Live Demo                                                   | Status         |
+|---------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------|----------------|
+| **Shopping List**         | Interactive shopping list app with local storage, item filtering, and CRUD operations                        | [View Project](https://github.com/51348761z/Shopping-List-Project-JS)   | [View Demo](https://shopping-list-project-js.vercel.app/)   | ✅ Completed    |
+| **Flixx Movie App**       | Movie browsing application using TMDB API with search functionality and detailed movie/TV show pages         | [View Project](https://github.com/51348761z/Flixx-Movie-App-Project-JS) | [View Demo](https://flixx-movie-app-project-js.vercel.app/) | ✅ Completed    |
+| **Tracalorie**            | Calorie tracking application with meal management, daily limits, and persistent storage using OOP principles | [View Project](https://github.com/51348761z/Tracalorie-App-Project-JS)  | [View Demo](https://tracalorie-app-project-js.vercel.app/)  | ✅ Completed    |
+| **Random Ideas App**      | Full-stack application with REST API built with Node.js and Express for managing and sharing random ideas    | [View Project](https://github.com/51348761z/RandomIdeas-APP)            | [View Demo](https://random-ideas-app.vercel.app/)           | ✅ Completed    |
 
 ## 🛠️ Technologies & Skills
 
